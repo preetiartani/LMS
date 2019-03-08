@@ -1,0 +1,71 @@
+/*LARGE DEVICES*/
+@media (min-width: 1200px){
+/*    its already fine, if found any bug we would add something later*/
+}
+
+/*MEDIUM DEVICES*/
+@media(min-width: 992px) and (max-width: 1054px){
+    .navbar{
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+}
+
+/*SMALL DEVICES: Tablets*/
+@media(min-width: 768px) and (max-width: 991px){
+    .navbar{
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+    .home-section .text-heading{
+        font-size: 45px;
+    }
+    .btn-general{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .register{
+        top: 10%;
+        left: 65%;
+    }
+    
+    .about-bg-diagonal{
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    .about-content-box{
+        height: 350px;
+    }
+    
+}
+
+/*EXTRA SMALL DEVICES: Phones*/
+@media(max-width: 767px){
+    .navbar{
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+    .home-section .text-heading{
+        font-size: 35px;
+    }
+    .btn-general{
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    .register{
+        top: 15%;
+        left: 75%;
+    }
+    .about-bg-diagonal{
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    .about-content-box{
+        height: 350px;
+    }
+    
+}
